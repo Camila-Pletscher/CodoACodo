@@ -1,0 +1,109 @@
+<! DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title> </title>
+    </head>
+    <body>
+        <h1>Acceso al sistema</h1>
+        <form method="POST" action="mailto:camilapletscher@hotmail.com">
+           <label for="DNI">DNI:</label> <input id="DNI" type="number" name="Dni" placeholder="Ingrese su DNI">
+           <br>
+           <br>
+           <label for="Usuario">Usuario:</label> <input id="Usuario" type="text" name="Usuario" placeholder="Ingrese su usuario">
+           <br>
+           <br>
+           <label for="Clave">Clave:</label> <input id="Clave" type="password" name="Clave" placeholder="Ingrese su contraseña">
+           <br>
+           <br>
+           <input type="submit" value="Ingresar">
+           <br>
+           <p>Si no estás registrado, completa tus datos aquí:</p>
+           <h2>Formulario para registrarse:</h2>
+        <fieldset>
+          <legend>Datos Personales</legend>
+           <label for="Nombre">Nombre:</label> <input id="Nombre" type="text" name="Nombre" placeholder="Ingrese su nombre">
+           <br>
+           <br>
+           <label for="Apellido">Apellido:</label> <input id="Apellido" type="text" name="Apellido" placeholder="Ingrese su apellido">
+           <br>
+           <br>
+           <label for="D.N.I">D.N.I:</label> <input id="D.N.I" type="number" name="Nro Documento" placeholder="Ingrese su DNI">
+           <br>
+           <br>
+           <label for="Fecha de nacimiento">Fecha de nacimiento:</label> <input id="Fecha de nacimiento" type="date" name="Fecha de nacimiento"
+           placeholder="Elija su fecha de nacimiento">
+           <br>
+           <br>
+           <p>Género:</p>
+           <input type="radio" name="Género" value="Femenino"> Femenino
+           <br>
+           <input type="radio" name="Género" value="Masculino"> Masculino
+           <br>
+           <input type="radio" name="Género" value="Otro"> Otro
+           <br>
+           <br>
+           <label for="Teléfono">Teléfono:</label> <input id="Teléfono" type="number" name="Teléfono">
+           <br>
+           <br>
+           <label for="Dirección">Dirección:</label> <input id="Dirección" type="text" name="Dirección" placeholder="Ingrese su dirección">
+           <br>
+           <br>
+           <label for="Localidad">Localidad:</label> <input id="Localidad" type="text" name="Localidad" placeholder="Ingrese la localidad">
+           <br>
+           <br>
+           <label for="Código postal">Código postal:</label> <input id="Código postal" type="number" name="Código postal"
+           placeholder="Ingrese el código postal">
+           <br>
+           <br>
+        </fieldset>
+        <fieldset><legend>Datos académicos</legend>
+            <p>Nivel de estudios</p>
+            <select name="Nivel de estudios">
+                <option>Primario</option>
+                <option>Secundario</option>
+                <option>Universitario</option>
+                <option>Terciario</option>
+
+            </select>
+            <p>Seleccione en qué lenguajes tiene conocimiento.</p>
+            
+            <input type="checkbox" name="Lenguajes" value="HTML"> HTML 
+            <br>
+            <input type="checkbox" name="Lenguajes" value="CSS"> CSS
+            <br>
+            <input type="checkbox" name="Lenguajes" value="JavaScript"> JavaScript
+            <br>
+            <input type="checkbox" name="Lenguajes" value="PHP"> PHP
+            <br>
+            <input type="checkbox" name="Lenguajes" value="JAVA"> JAVA
+            <br>
+            <input type="checkbox" name="Lenguajes" value="SQL"> SQL
+            <br>
+        </fieldset> 
+        <fieldset><legend>Registro</legend>
+            <br>
+            <label for="Usuario">Usuario:</label> <input id="Usuario" type="text" name="Usuario" placeholder="Elija un usuario">
+            <br>
+            <br>
+            <label for="Contraseña">Contraseña</label> <input id="Contraseña" type="password" name="Contraseña" placeholder="Elija una contraseña">
+            <br>
+            <br>
+            <p>Por último, cuentenos brevemente por qué le gustaria formar parte de nuestra comunidad:</p>
+            <label for="Cuentenos"></label> <textarea id="Cuentenos" name="Cuentenos" rows="10" cols="30"></textarea>
+
+        </fieldset>
+        <br>
+        <br>
+            <input type="submit" value="Enviar">
+            <button type="reset">Borrar</button>
+        </form>
+            
+        <footer>
+            <p style="text-align: center; font-size: 10pt;">Formulario realizado por Camila Pletscher en Codo a Codo 2021</p>
+        </footer>
+
+        
+    </body>
+    
+        
