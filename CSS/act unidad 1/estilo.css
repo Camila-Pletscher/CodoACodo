@@ -1,0 +1,58 @@
+
+nav {
+    background-color: rgb(209, 205, 205);
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 0px;
+}
+
+a{
+    color: indigo;
+}
+
+#codoacodo {
+    height: 5%;
+}
+
+#logo-html {
+    width: 10%;
+    margin-left: 350px;
+
+}
+
+p {
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+#logo-css {
+    margin-left: 300px;
+    width: 10%;
+}
+
+footer {
+    background-color: rgb(209, 205, 205);
+}
+
+#foot {
+    text-align: center;
+    margin: 0px;
+}
+
+#bold{
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+

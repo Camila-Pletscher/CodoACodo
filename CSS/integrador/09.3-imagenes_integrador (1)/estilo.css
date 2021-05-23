@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+ul{
+    float: right;
+    margin-top: 15vh;
+    margin-right: 10vh;
+}
+
+header {
+    background-image: url("header.jpg");
+    margin: 0px;
+    width: 100%;
+    padding: 10vh;
+    
+}
+
+#fotolugar {
+    width: 100%;
+
+}
+
+p {
+    margin: 0px;
+
+}
+
+h2 {
+
+}
+
+#logo {
+    
+}
+
