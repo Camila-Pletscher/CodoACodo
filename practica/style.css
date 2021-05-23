@@ -1,0 +1,38 @@
+#logo {
+    margin-left: 100mm;
+}
+nav {
+    background-color: rgb(199, 180, 180);
+    border: 0px;
+}
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    color: indigo;
+    padding: 0px 50px;
+    display: inline-block;
+    text-decoration: none;
+   
+}
+
+ul {
+    list-style: none;
+    display: block;
+    
+
+
+}
+
+li :hover {
+
+    background-color: rgb(178, 127, 214);
+    font: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
