@@ -9,4 +9,5 @@ function promedio () {
     alert ("El promedio de notas es " + promedio);
 }
 
+
 promedio()
